@@ -1,10 +1,8 @@
-import '../index.css';
+import city from "../static/city_cropped_2.png"
 
-const Header = (props) => {
+const Header = () => {
   return (
-    <div id='city_img'>
-        <img src={props.image} alt="New york Skyline" id="city_img" style={'../index.css'}/>
-    </div>
+      <img src={city} alt="New york Skyline" class="header"/>
   )
 }
 

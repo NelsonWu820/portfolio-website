@@ -7,13 +7,12 @@ import Project3 from "./components/Project3";
 import AboutMe from "./components/AboutMe";
 import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
-import city from "./static/36280535712_761eb51e97_b.jpg"
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Header image={city}/>
+      <Header/>
       <Skills/>
       <Project1/>
       <Project2/>

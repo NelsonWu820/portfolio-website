@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent justify-content-between fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent justify-content-between fixed-top" id="navbar_parent">
         <a class="navbar-brand" href="#">NelsonWu</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         </button>

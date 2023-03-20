@@ -22,3 +22,9 @@ code {
   object-position: 100% 0;
 }
 
+.skills{
+  max-height: 100px;
+  border: 1px solid black;
+  width: 3px container;
+}
+

@@ -11,8 +11,8 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <Navbar/>
       <Header/>
+      <Navbar/>
       <Skills/>
       <Project1/>
       <Project2/>

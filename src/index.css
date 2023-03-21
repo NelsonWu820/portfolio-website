@@ -16,22 +16,46 @@ code {
   width: 100%;
   height: auto;
   display: block;
-  opacity: 0.7;
-  filter: grayscale(80%);
   object-fit: cover; 
+  filter: brightness(80%);
   object-position: 100% 0;
 }
 
-.skills{
-  font-size: 50px;
-  display: block;
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align: center;
+.header_bottom{
+  height: 50px;
+  background-image: linear-gradient(rgb(76, 75, 75), rgb(107, 107, 107));
 }
 
 .skills_wrapper{
   display: block;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.skills{
+  font-size: 30px;
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+}
+
+.skills_label{
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 30px;
+  margin-left: 50px;
+}
+
+.skills_element {
+  box-sizing: border-box;
+  flex-basis: 0;
+  flex: 1 1 0px;
 }
 
 

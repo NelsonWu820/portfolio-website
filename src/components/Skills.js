@@ -11,40 +11,39 @@ const Skills = () => {
   return (
     <section class="skills_wrapper">
       <h1 class="skills_label">Skills & Tools</h1>
-      <div class="skills w3-container">
-              <div>
-                <FaHtml5 class="html"/>
-                <div>HTML</div>
-              </div>
-              <div>      
-                <IoLogoCss3/>
-                <div>CSS</div>
-              </div>
-              <div>
-                <SiJavascript/>
-                <div>JavaScript</div>
-              </div>
-              <div>
-                <FaReact/>
-                <div>React</div>
-              </div>
-              <div>
-                <AiFillGithub/>
-                <div>GitHub</div>
-              </div>
-              <div>
-                <DiNodejs/>
-                <div>Node</div>
-              </div>
-              <div>
-                <TbSql/>
-                <div>SQL</div>
-              </div>
-              <div>
-                <DiMongodb/>
-                <div>MongoDB</div>
-              </div>
-        </Table>
+      <div class="skills">
+          <div class="skills_element">
+            <FaHtml5 class="html"/>
+            <div>HTML</div>
+          </div>
+          <div class="skills_element">      
+            <IoLogoCss3/>
+            <div>CSS</div>
+          </div>
+          <div class="skills_element">
+            <SiJavascript/>
+            <div>JavaScript</div>
+          </div>
+          <div class="skills_element">
+            <FaReact/>
+            <div>React</div>
+          </div>
+          <div class="skills_element">
+            <AiFillGithub/>
+            <div>GitHub</div>
+          </div>
+          <div class="skills_element">
+            <DiNodejs/>
+            <div>Node</div>
+          </div>
+          <div class="skills_element">
+            <TbSql/>
+            <div>SQL</div>
+          </div>
+          <div class="skills_element">
+            <DiMongodb/>
+            <div>MongoDB</div>
+          </div>
       </div>
     </section>
   )

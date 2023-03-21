@@ -1,4 +1,4 @@
-import city from "../static/city_cropped_2.png"
+import city from "../static/city_cropped_3.png"
 
 const Header = () => {
   return (

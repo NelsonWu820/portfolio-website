@@ -7,7 +7,7 @@ import Project2 from "./components/Project2";
 import Project3 from "./components/Project3";
 import AboutMe from "./components/AboutMe";
 import ContactMe from "./components/ContactMe";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer"; 
 
 function App() {
   const Scroll_Home = () => {

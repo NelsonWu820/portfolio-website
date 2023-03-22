@@ -1,6 +1,9 @@
 const ContactMe = () => {
   return (
-    <section id="contactMe_id">ContactMe</section>
+    <section className="contactMe">
+      <h1 className="title">ContactMe</h1>
+      <p className="text">Nelsonwu820@gmail.com</p>
+    </section>
   )
 }
 

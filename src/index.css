@@ -112,4 +112,20 @@ nav a {
   margin: 0px 0px 0px 50px; 
 }
 
+.contactMe {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 100px 150px 100px 100px;
+}
+
+.contactMe .title {
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 30px;
+}
+
+.contactMe .text {
+  margin: 0px 0px 0px 50px; 
+}
+
 

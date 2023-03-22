@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 
 function App() {
   const Scroll_Home = () => {
-    const element = document.getElementById("Header");
+    const element = document.getElementById("header_id");
     if (element) {
       // Will scroll smoothly to the top of the next section
       element.scrollIntoView({ behavior: 'smooth' });
@@ -24,10 +24,31 @@ function App() {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   };
+  const Scroll_ProjectTitle = () => {
+    const element = document.getElementById("project_title_id");
+    if (element) {
+      // Will scroll smoothly to the top of the next section
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+  const Scroll_AboutMe = () => {
+    const element = document.getElementById("aboutMe_id");
+    if (element) {
+      // Will scroll smoothly to the top of the next section
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+  const Scroll_ContactMe = () => {
+    const element = document.getElementById("contactMe_id");
+    if (element) {
+      // Will scroll smoothly to the top of the next section
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <div className="App">
       <Header/>
-      <Navbar onClick={Scroll_Home} onClick2={Scroll_Skills}/>
+      <Navbar onClick={Scroll_Home} onClick2={Scroll_Skills} onClick3={Scroll_ProjectTitle} onClick4={Scroll_AboutMe} onClick5={Scroll_ContactMe}/>
       <Skills/>
       <ProjectTitle/>
       <Project1/>

@@ -1,4 +1,4 @@
-const Navbar = ({onClick, onClick2}) => {
+const Navbar = ({onClick, onClick2, onClick3}) => {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent justify-content-between fixed-top" id="navbar_parent">
         <a class="navbar-brand text-white" href="#">NelsonWu</a>
@@ -8,19 +8,19 @@ const Navbar = ({onClick, onClick2}) => {
         <div class="form-inline" data-toggle="collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link text-white" href="#" onClick={onClick2}>Home</a>
+                  <div class="nav-link text-white" onClick={onClick}>Home</div>      
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link text-white" href="#" onClick={onClick2}>Skills & Technologies</a>
+                  <div class="nav-link text-white" onClick={onClick2}>Skills & Technologies</div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#">Projects</a>
+                  <div class="nav-link text-white" onClick={onClick3}>Projects</div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#">About Me</a>
+                  <div class="nav-link text-white" onClick={onClick2}>About Me</div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#">Contact Me</a>
+                  <div class="nav-link text-white" onClick={onClick2}>Contact Me</div>
                 </li>
             </ul>
         </div>

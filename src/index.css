@@ -2,6 +2,10 @@ nav a {
   text-decoration: none !important;
 }
 
+.nav-link {
+  cursor: pointer;
+}
+
 .header {
   width: 100%;
   height: auto;

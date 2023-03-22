@@ -1,6 +1,10 @@
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <section className="footer">
+      <div className="footer_holder">
+        <p className="text">&copy; 2023 | Made by Nelson Wu</p>
+      </div>
+    </section>
   )
 }
 

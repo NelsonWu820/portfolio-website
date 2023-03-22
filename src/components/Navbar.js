@@ -8,10 +8,10 @@ const Navbar = ({onClick, onClick2}) => {
         <div class="form-inline" data-toggle="collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link text-white" onClick={onClick}>Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link text-white" href="#" onClick={onClick2}>Home</a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link text-white" href={onClick2}>Skills & Technologies</a>
+                  <a class="nav-link text-white" href="#" onClick={onClick2}>Skills & Technologies</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-white" href="#">Projects</a>

@@ -9,8 +9,8 @@ import { AiFillGithub } from "react-icons/ai";
 
 const Skills = () => {
   return (
-    <section class="skills_wrapper">
-      <h1 class="skills_label">Skills & Tools</h1>
+    <section class="skills_wrapper" id="skills_id">
+      <h1 class="skills_label">Skills & Technologies</h1>
       <div class="skills">
           <div class="skills_element">
             <FaHtml5 class="html"/>

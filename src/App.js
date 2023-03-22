@@ -18,7 +18,7 @@ function App() {
     }
   };
   const Scroll_Skills = () => {
-    const element = document.getElementById("Skills");
+    const element = document.getElementById("skills_id");
     if (element) {
       // Will scroll smoothly to the top of the next section
       element.scrollIntoView({ behavior: 'smooth' });

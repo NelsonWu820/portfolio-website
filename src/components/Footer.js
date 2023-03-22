@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <section className="footer">
       <div className="footer_holder">
-        <p className="text">&copy; 2023 | Made by Nelson Wu</p>
+        <p className="text">&copy; 2023 | Coded & Designed by Nelson Wu</p>
       </div>
     </section>
   )

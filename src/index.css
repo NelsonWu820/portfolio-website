@@ -76,4 +76,24 @@ nav a {
   margin-bottom: 30px;
 }
 
+.project1_link {
+  color: black;
+}
+
+.project1_link:link {
+  text-decoration: none;
+}
+
+.project1_link:visited {
+  text-decoration: none;
+}
+
+.project1_link:hover {
+  text-decoration: none;
+}
+
+.project1_link:active {
+  text-decoration: none;
+}
+
 

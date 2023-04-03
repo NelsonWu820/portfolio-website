@@ -2,7 +2,7 @@ import HomePage from "./HomePage";
 import Project1_desc from "./components/project_desc/Project1_desc";
 import Project2_desc from "./components/project_desc/Project2_desc";
 import Project3_desc from "./components/project_desc/Project3_desc";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (

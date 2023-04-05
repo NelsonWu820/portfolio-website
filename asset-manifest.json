@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.7a4fe98f.css",
-    "main.js": "/portfolio-website/static/js/main.817055ae.js",
-    "static/js/787.749b4a44.chunk.js": "/portfolio-website/static/js/787.749b4a44.chunk.js",
-    "static/media/city_cropped_4.jpg": "/portfolio-website/static/media/city_cropped_4.dbc1a471df968799726e.jpg",
-    "static/media/to-do-list.png": "/portfolio-website/static/media/to-do-list.f795ae3e51c979fad76e.png",
-    "index.html": "/portfolio-website/index.html",
-    "main.7a4fe98f.css.map": "/portfolio-website/static/css/main.7a4fe98f.css.map",
-    "main.817055ae.js.map": "/portfolio-website/static/js/main.817055ae.js.map",
-    "787.749b4a44.chunk.js.map": "/portfolio-website/static/js/787.749b4a44.chunk.js.map"
+    "main.css": "//nelsonhwu.com/static/css/main.7a4fe98f.css",
+    "main.js": "//nelsonhwu.com/static/js/main.27e07bb1.js",
+    "static/js/787.749b4a44.chunk.js": "//nelsonhwu.com/static/js/787.749b4a44.chunk.js",
+    "static/media/city_cropped_4.jpg": "//nelsonhwu.com/static/media/city_cropped_4.dbc1a471df968799726e.jpg",
+    "static/media/to-do-list.png": "//nelsonhwu.com/static/media/to-do-list.f795ae3e51c979fad76e.png",
+    "index.html": "//nelsonhwu.com/index.html",
+    "main.7a4fe98f.css.map": "//nelsonhwu.com/static/css/main.7a4fe98f.css.map",
+    "main.27e07bb1.js.map": "//nelsonhwu.com/static/js/main.27e07bb1.js.map",
+    "787.749b4a44.chunk.js.map": "//nelsonhwu.com/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a4fe98f.css",
-    "static/js/main.817055ae.js"
+    "static/js/main.27e07bb1.js"
   ]
 }

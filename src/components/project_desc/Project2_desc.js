@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const Project2_desc = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent justify-content-between fixed-top" id="navbar_parent">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white justify-content-between fixed-top" id="navbar_parent">
       <div class="navbar-brand text-black">
         <Link to="/" className="project1_link">NelsonWu</Link>
       </div>

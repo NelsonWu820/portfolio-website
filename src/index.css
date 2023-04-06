@@ -96,6 +96,26 @@ nav a {
   text-decoration: none;
 }
 
+.p1_holder {
+  margin: 50px 100px auto 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.p1_img {
+  width: auto;
+  height: 600px;
+}
+
+.p1_btn_live {
+  margin: 50px 50px 10px 10px;
+}
+
+.p1_btn_source {
+  margin: auto 50px 50px 10px;
+}
+
 .aboutMe {
   display: flex;
   flex-direction: column;

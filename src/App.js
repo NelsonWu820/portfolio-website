@@ -11,7 +11,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<HomePage/>}>
           </Route>
-          <Route exact path="/Todo_List" element={<Project1_desc/>}>
+          <Route exact path="/Project1" element={<Project1_desc/>}>
           </Route>
           <Route exact path="/Project2" element={<Project2_desc/>}>
           </Route>

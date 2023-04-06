@@ -1,14 +1,16 @@
 import { Link } from "react-router-dom"
+import todo from "../static/todo_list.png"
 
 const Project2 = () => {
   return (
     <section class="project1_wrapper">
       <div class="project1_img">
-        <img class="project1_img" alt="In Progress"/>
+        <img  src={todo} class="project1_img" alt="In Progress"/>
       </div>
       <div class="project1_text">
-        <h3 class="title">In Progress</h3>
-        <p>In Progress.</p>
+        <h3 class="title">Todo List</h3>
+        <p>A light weight and agile web app Made with Javascript and React. This simple todo app is
+        browser based only, so it will add tasks but the tasks will only stay on that instance.</p>
         <button>
           <Link to="/Project2" className="project1_link">View It Here</Link>
         </button>

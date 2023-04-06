@@ -56,14 +56,14 @@ nav a {
 }
 
 .project1_wrapper{
-  margin: 100px 150px 100px 100px;
+  margin: 100px 100px 100px 100px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .project1_img {
-  width: 350px;
+  width: 500px;
   height: 300px;
   flex: 1 1 40%;
 }

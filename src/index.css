@@ -116,6 +116,10 @@ nav a {
   margin: auto 50px 50px 10px;
 }
 
+.p1_empty {
+  height: 300px
+}
+
 .p2_holder {
   margin: 50px 100px auto 100px;
   display: flex;
@@ -134,6 +138,10 @@ nav a {
 
 .p2_btn_source {
   margin: auto 50px 50px 10px;
+}
+
+.p2_empty {
+  height: 300px
 }
 
 .aboutMe {

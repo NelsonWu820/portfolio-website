@@ -49,7 +49,7 @@ const HomePage = () => {
     <div>
         <Header/>
         <Navbar onClick={Scroll_Home} onClick2={Scroll_Skills} onClick3={Scroll_ProjectTitle} onClick4={Scroll_AboutMe} onClick5={Scroll_ContactMe}/>
-        <Skills/>
+        
         <ProjectTitle/>
         <Project1/>
         <Project2/>

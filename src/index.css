@@ -6,7 +6,14 @@ nav a {
   cursor: pointer;
 }
 
-
+.header {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover; 
+  filter: brightness(80%);
+  object-position: 100% 0;
+}
 
 .header_bottom{
   height: 50px;

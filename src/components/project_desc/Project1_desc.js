@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom"
 import Footer from "../Footer"
+import { useEffect } from "react"
 
 const Project1_desc = ({ photo }) => {
+  useEffect(() => {window.scroll(0,0)});
   const liveUrl = "https://nelsonwu820.github.io/photo_filter_react/"
   const sourceUrl = "https://github.com/NelsonWu820/photo_filter_react"
   return (

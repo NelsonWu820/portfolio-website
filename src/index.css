@@ -144,6 +144,30 @@ nav a {
   height: 300px
 }
 
+.p3_holder {
+  margin: 50px 100px auto 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.p3_img {
+  width: auto;
+  height: 600px;
+}
+
+.p3_btn_live {
+  margin: 50px 50px 10px 10px;
+}
+
+.p3_btn_source {
+  margin: 50px 50px 50px 10px;
+}
+
+.p3_empty {
+  height: 300px
+}
+
 .aboutMe {
   display: flex;
   flex-direction: column;

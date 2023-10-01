@@ -14,11 +14,13 @@ function App() {
         <Routes>
           <Route exact path="/" element={<HomePage/>}>
           </Route>
-          <Route exact path="/Project1" element={<Project1_desc photo={photo_filter} />}>
+          <Route exact path="/Project1" element={<Project1_desc photo={amazonLike} />}>
           </Route>
-          <Route exact path="/Project2" element={<Project2_desc photo={todo} />}>
+          <Route exact path="/Project2" element={<Project2_desc photo={amazonLike} />}>
           </Route>
-          <Route exact path="/Project3" element={<Project3_desc photo={amazonLike}/>}>
+          <Route exact path="/Project3" element={<Project3_desc photo={photo_filter}/>}>
+          </Route>
+          <Route exact path="/Project4" element={<Project3_desc photo={todo}/>}>
           </Route>
         </Routes>
       </div>

@@ -1,17 +1,21 @@
 import { Link } from "react-router-dom"
-import In_Progress from "../static/Screenshot (3).png"
+import DeveloperNetwork from "../static/DeveloperNetworkFinal.png";
 
 const Project2 = () => {
   return (
-    <section class="project1_wrapper">
-      <div class="project1_img">
-        <img src={In_Progress} class="project1_img" alt="In Progress"/>
+    <section className="project1_wrapper">
+      <div className="project2_img">
+        <img src={DeveloperNetwork} className="project1_img" alt="In Progress"/>
       </div>
-      <div class="project1_text">
-        <h3 class="title">DeveloperNetwork</h3>
-        <p></p>
-        <button>
-          <Link to="/Project2" className="project1_link">View It Here</Link>
+      <div className="project1_text">
+        <h3 className="title">DeveloperNetwork</h3>
+        <p>A website developed using the MERN stack to create a developer network, offering a social
+        platform for developers to connect, collaborate, and share their knowledge and experiences. MongoDB 
+        stores the users account along with any post or comments that they make. While Express.js and Node.js 
+        will handle the backend and determine the response, that will come from React using Redux to manage 
+        global states.</p>
+        <button className="btn-holder">
+          <Link to="/Project2" className="button-27">View It Here</Link>
         </button>
       </div>
     </section>

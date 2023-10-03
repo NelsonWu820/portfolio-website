@@ -1,52 +1,62 @@
 import { Link } from "react-router-dom"
 import { useEffect } from "react";
 import Footer from "../Footer";
+import {MdOutlineLiveTv} from "react-icons/md";
+import {FaGithub} from "react-icons/fa";
 
 const Project3_desc = ({photo}) => {
   useEffect(() => {window.scroll(0,0)});
-  const sourceUrl = 'https://github.com/NelsonWu820/amazonLike'
+  const liveUrl = "https://nelsonwu820.github.io/photo_filter_react/"
+  const sourceUrl = "https://github.com/NelsonWu820/photo_filter_react"
   return (
-    <section className="p3_desc">
-      <nav class="navbar navbar-expand-lg navbar-light bg-transparent justify-content-between fixed-top" id="navbar_parent">
-        <div class="navbar-brand text-black">
+    <section>
+      <nav className="navbar navbar-expand-lg navbar-light bg-white justify-content-between fixed-top" id="navbar_parent">
+        <div className="navbar-brand text-black">
           <Link to="/" className="project1_link">NelsonWu</Link>
         </div>
         
-        <div class="form-inline" data-toggle="collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <div class="nav-link text-black">
+        <div className="form-inline" data-toggle="collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav mr-auto">
+                <li className="nav-item active">
+                  <div className="nav-link text-black">
                     <Link to="/" className="project1_link">Home</Link>
                   </div>      
                 </li>
             </ul>
         </div>
       </nav>
-  
-      <div className="p3_holder">
-      <img src={photo} className="p3_img"></img> 
-      <button className="p3_btn_source" onClick={() => window.open(sourceUrl)}>Source Code</button>
-      <h1>Description</h1>
-      <p>This is my most complex web app to date. As the name suggests this will be an Amazon clone, where the frontend will
-      be made using HTML, CSS and React with redux to manage states. The backend will use Nodejs with express, and uses mongoose 
-      to interacte with MongoDB Atlas. The Product Advertising API will be used just to fill in the default products and will 
-      periodically update the default selection, but products can be added manually using a seller account.
-      </p>
-      <p></p>
-      <h1>Purpose</h1>
-      <p>The main purpose of this Amazon clone is to test my MERN skills and prove that I can work with a full stack application. 
-      That uses a dynamic frontend to talk to a Node backend, which will actually store data to be used later. Which will also
-      include the use of an API (Product Advertising API) to fill in some of the products.
-      </p>
-      <p></p>
-      <h1>Problems And Thought Process</h1>
-      <p>As this web app is complete yet I don't have a full list of problems that I encounterd yet, especially 
-      the Product Advertising API as I haven't implemented it yet. This is the first time that I have worked with 
-      a database within a full stack web app, also as I have never used a document based database it took me 
-      a while to get used to MongoDB coming from a SQL background. Also the use of redux and global states was 
-      a unqiue add on to base React.</p>
+
+      <div className="p_holder">
+      <img src={photo} className="p_img" alt=".../"></img> 
+      <div className="p1_btn_live">
+        <button className="button-31"onClick={() => window.open(liveUrl)}> <MdOutlineLiveTv className="live_icon"/>Live Version (It might take a while, as I deployed it using a free plan on Render)</button> 
       </div>
-      <div className="p3_empty"></div>
+      <div className="p1_btn_source">
+        <button className="button-31" onClick={() => window.open(sourceUrl)}> <FaGithub className="source_icon"/>Source Code</button>
+      </div> 
+        <h1>Description</h1>
+        <p>This is a web app made Using mainly React and JavaScript with HTML and CSS. Photo Filter
+        uses a static JSON file to hold the links and tags of the images and then takes the user's
+        input to return a photos that have the tags. But it will also return photos that have all the user's
+        tags plus tags that where not part of the user's input.</p>
+        <p></p>
+        <h1>Purpose</h1>
+        <p>The purpose of this Photo Filter was to improve on my React abilities but have a JSON
+        file that the app can pull from. I was originally going to use the Unsplash Image API as 
+        it is a JSON API but I ran out of time and had to cut corners, so instead I have a static
+        JSON file that holds the links of the images with their tags. I do want to eventually add
+        the API to the project.</p>
+        <p></p>
+        <h1>Problems And Thought Process</h1>
+        <p>The main problem that I had was trying to get the relative link inside my JSON file 
+        to render the image when placed inside the img tag. As when I first just placed the relative
+        link inside the img tag it would not render the img and I had to scourer a bunch of stack overflow
+        posts about closely related topic, and asking chatGPT but not getting anywhere. Until I found one 
+        stack overflow post that was 3 years old and had 5 upvotes. Another problem I had was the logic to
+        loop through that JSON file but I was able to get over it by thinking it out and using the VScode debugging
+        panel.</p>
+      </div>
+      <div className="p1_empty"></div>
       <Footer/>
     </section>
   )

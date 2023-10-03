@@ -29,7 +29,7 @@ const Project4_desc = ({photo}) => {
       <div className="p_holder">
         <img src={photo} className="p_img" alt=".../"></img> 
         <div className="p1_btn_live">
-          <button className="button-31"onClick={() => window.open(liveUrl)}> <MdOutlineLiveTv className="live_icon"/>Live Version (It might take a while, as I deployed it using a free plan on Render)</button> 
+          <button className="button-31"onClick={() => window.open(liveUrl)}> <MdOutlineLiveTv className="live_icon"/>Live Version</button> 
         </div>
         <div className="p1_btn_source">
           <button className="button-31" onClick={() => window.open(sourceUrl)}> <FaGithub className="source_icon"/>Source Code</button>

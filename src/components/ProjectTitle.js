@@ -1,6 +1,6 @@
 const ProjectTitle = () => {
   return (
-    <h1 class="project_title" id="project_title_id">Projects</h1>
+    <h1 className="project_title" id="project_title_id">Projects</h1>
   )
 }
 

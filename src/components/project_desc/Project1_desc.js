@@ -6,7 +6,7 @@ import {FaGithub} from "react-icons/fa";
 
 const Project1_desc = ({ photo }) => {
   useEffect(() => {window.scroll(0,0)});
-  const liveUrl = "https://amazonlike.onrender.com"
+  const liveUrl = "https://amazon-like-frontend.vercel.app/"
   const sourceUrl = 'https://github.com/NelsonWu820/amazonLike'
   return (
     <section className="p3_desc">

@@ -6,7 +6,7 @@ import {FaGithub} from "react-icons/fa";
 
 const Project2_desc = ({ photo }) => {
   useEffect(() => {window.scroll(0,0)});
-  const liveUrl = "https://developernetwork.onrender.com"
+  const liveUrl = "https://developer-network-frontend.vercel.app"
   const sourceUrl = 'https://github.com/NelsonWu820/DeveloperNetwork'
   return (
     <section className="p3_desc">
@@ -29,7 +29,7 @@ const Project2_desc = ({ photo }) => {
       <div className="p_holder">
       <img src={photo} className="p_img" alt=".../"></img> 
       <div className="p1_btn_live">
-        <button className="button-31"onClick={() => window.open(liveUrl)}> <MdOutlineLiveTv className="live_icon"/>Live Version (It might take a while, as I deployed it using a free plan on Render)</button> 
+        <button className="button-31"onClick={() => window.open(liveUrl)}> <MdOutlineLiveTv className="live_icon"/>Live Versio</button> 
       </div>
       <div className="p1_btn_source">
         <button className="button-31" onClick={() => window.open(sourceUrl)}> <FaGithub className="source_icon"/>Source Code</button>

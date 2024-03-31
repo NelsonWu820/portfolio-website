@@ -49,7 +49,7 @@ const Project1_desc = ({ photo }) => {
       <p></p>
       <h1>Problems And Thought Process</h1>
       <p>
-        The general idea was preety clear as I wanted to build an Amazon clone so I just looked at what amazon was doing. The problem
+        The general idea from the start was pretty clear as I wanted to build an Amazon clone so I just looked at what amazon was doing. The problem
         with that, is that Amazon is a huge company I quickly realized how big this project was going to be if I wanted to add 
         every feature Amazon had. So I quickly had to cut a lot of features as I did not have the time to make the perfect web application,
         so I just stuck to the basics of buy and rating items. At first I wanted to fill the store using Amazon's Product Advertesting API
